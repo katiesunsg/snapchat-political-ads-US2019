@@ -1,6 +1,6 @@
 # Predicting Snapchat Political Advertisement Impressions in the U.S. for the Year 2019 based on Amount Spent and Number of Days
 ## Background
-Political advertisements have a long history in [mass media.](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781405186407.wbiecp049.pub2) It is interesting to consider how the buying power of organizations and the number of days that an ad runs for might influence the number of impressions an ad recieves. We'll take a look at public data provided by [Snapchat, a social-media platform,](https://phys.org/news/2018-06-snapchat.html) to determine how these two variables play a role in predicting the succcess of an ad.
+Political advertisements have a long history in [mass media.](https://onlinelibrary.wiley.com/doi/abs/10.1002/9781405186407.wbiecp049.pub2) It is interesting to consider how the amount spent and number of days that an ad runs for might influence the number of impressions. We'll take a look at public data provided by [Snapchat, a social-media platform,](https://phys.org/news/2018-06-snapchat.html) to determine how these two variables play a role in predicting the succcess of an ad.
 
 ## Business Question
 ***Can we predict the number of impressions for a political ad on Snapchat in the United States FY2019 based on amount of money spent and days ad was running?***
@@ -22,10 +22,11 @@ The output summary gives us a R Squared value of 0.738, with the best fit line a
 
 Looking at the data for the top 10 advertisements based on number of impressions, we can see that Days being an insignificant variable is supported. The number of days does not seem to be related to the number of impressions, with one ad up for 28 days recieving more impressions than another ad running for 191 days.
 
-**Can we predict number of impressions based on the significant variable Spend?**
+**Can we predict number of impressions based on Spend?**
+
 ![graph](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/SpendImpressionsScatterGraph.png)
 
-Creating a linear regression scatter graph with Spend as our independent variable shows that most ads recieve less than 50 million impressions. However, ads that are more successful spend at least $100,000. Using the predicted impressions equation **Impressions = 24494.67 + 333.71(Spend)** based on our slope and intercept, we can calculate predicted impressions and error to find outliers where error is > 2 * (Standard Error of Regression). The number of high outliers is 16, which is 1.36% of all outliers.
+Creating a linear regression scatter graph with Spend as our significant independent variable shows that most ads recieve <50 million impressions. However, ads that are more successful spend >$100,000. Using the predicted impressions equation **Impressions = 24494.67 + 333.71(Spend)** based on our slope and intercept, we can calculate predicted impressions and error to find outliers where error is > 2 * (Standard Error of Regression). The number of high outliers is 16, which is 1.36% of all outliers.
 
 ![insert4](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/updatedAdSpendHistogram.png)
 
