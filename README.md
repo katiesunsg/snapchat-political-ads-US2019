@@ -20,7 +20,7 @@ The output summary gives us a R Squared value of 0.738, with the best fit line a
 
 ![image](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/TopAdsImpressions.png)
 
-A p-value < 0.01 for Spend adheres to p-value < 0.05, the criteria to determine statistical significance. Days gives us a p-value of 0.3 which is greater than 0.05, implying that we can not reject the null hypothesis and that Days is not statistically significant. The top 10 advertisements table suggests the number of days does not relate to higher impressions, with one ad running for 28 days receiving more impressions than another ad running for 191 days.
+A p-value < 0.01 for Spend adheres to p-value < 0.05, the criteria to determine statistical significance. Days gives us a p-value of 0.3 which is greater than 0.05, implying that we can not reject the null hypothesis and that Days is not statistically significant. The top 10 advertisements table suggests the number of days does not relate to higher impressions, with one ad running for 24 days receiving more impressions than another ad running for 191 days.
 
 **Can we predict number of impressions based on Spend?**
 
