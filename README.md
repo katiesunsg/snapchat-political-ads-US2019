@@ -28,7 +28,7 @@ We see that p-value < 0.01 for Spend adheres to p-value < 0.05, the criteria to 
 
 Creating a linear regression scatter graph with Spend as our significant independent variable shows that most ads receive less than 50 million impressions. However, a majority of ads that are more successful spend upwards of $100,000. Using the equation **Impressions = 24494.67 + 333.71(Spend)**, we can calculate predicted impressions and error to find outliers where error is > 2 * (Standard Error of Regression). The number of high outliers is [16, which is 1.36% of all outliers.](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/Snapchat_Data_Analysis.xlsx)
 
-![insert4](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/updatedAdSpendHistogram.png)
+![insertalso](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/finalHistogramSpend.png)
 
 Our histogram graph further reinforces our findings in finding that most organizations spend around $250. Yet, as evidenced by the lower number of advertisements that spend more, higher paying seems to have a higher correlation with increased number of impressions.
 
