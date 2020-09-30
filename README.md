@@ -26,7 +26,7 @@ A p-value < 0.01 for Spend adheres to p-value < 0.05, the criteria to determine 
 
 ![graph](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/SpendImpressionsScatterGraph.png)
 
-Creating a scatter graph with Spend as our independent variable shows us that most ads ads receive fewer than 5 million impressions and spend less than $25,000. Using the equation **Impressions = 24494.67 + 333.71(Spend)**, we can calculate predicted impressions and error to find outliers where error is > 2 * (Standard Error of Regression). The number of high outliers is [16, which is 1.36% of all outliers.](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/Snapchat_Data_Analysis.xlsx)
+Creating a scatter graph with Spend as our independent variable shows us that most ads ads receive fewer than 5 million impressions and spend less than $25,000. Using the equation **Impressions = 333.71(Spend) + 24495**, we can calculate predicted impressions and error to find outliers where error is > 2 * (Standard Error of Regression). The number of high outliers is [16, which is 1.36% of all outliers.](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/Snapchat_Data_Analysis.xlsx)
 
 ![insertalso](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/finalHistogramSpend.png)
 ![alsoinsert](https://github.com/katiesunsg/snapchat-political-ads-US2019/blob/master/final3impressions.png)
